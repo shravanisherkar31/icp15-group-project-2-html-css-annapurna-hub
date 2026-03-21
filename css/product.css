@@ -16,7 +16,7 @@ body {
     gap: 12px;
     padding: 10px;
     background: #f5f5f5;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     scroll-behavior: smooth;
 }
 
@@ -120,12 +120,40 @@ button:hover {
     color: #ffffff;
 }
 
+
+
+
+.cat-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 28px 0 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cat-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e8e0d5;
+}
+
+   
+
+
 /* Footer */
+body {
+    margin: 0;
+    padding: 0;
+}
 .footer{
-    background: #111;
+    background:rgb(47, 1, 1);
     color: #fff;
     padding: 30px 0;  
     margin-top: 40px;
+    width: 100%;
 }
 
 /* Container */
@@ -135,6 +163,7 @@ button:hover {
     gap: 20px;  
     padding: 0 30px;
     align-items: start;
+   
 }
 
 /* Sections */

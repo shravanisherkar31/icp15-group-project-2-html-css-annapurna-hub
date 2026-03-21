@@ -131,19 +131,25 @@ button:hover {
     background-color:#4c531c;
 }
 /* Footer */
+body {
+    margin: 0;
+    padding: 0;
+}
 .footer{
-    background: #111;
+    background: rgba(30, 5, 5, 0.97);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(12px);
     color: #fff;
-    padding: 30px 0;  
-    margin-top: 40px;
+    padding: 10px 0;
+    margin-top: px;
 }
 
 /* Container */
 .footer-container{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;  
-    gap: 20px;  
-    padding: 0 30px;
+    gap: 14px;
+    padding: 0 24px;
     align-items: start;
 }
 
@@ -162,26 +168,26 @@ button:hover {
 .about-row{
     display: flex;
     align-items: center;
-    gap: 30px;   
+    gap: 16px;
 }
 
 /* Logo */
 .logo-box img{
-    width: 160px;  
+    width: 120px;
 }
 
 /* Description */
 .desc-box{
     max-width: 400px;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.4;
 }
 
 /* Tagline */
 .tagline-2{
     text-align: center;
-    margin-top: 15px;  
-    font-size: 16px;
+    margin-top: 8px;
+    font-size: 14px;
     color: #ddd;
 }
 
