@@ -72,3 +72,27 @@ body{
     font-size:16px;
     opacity: 0.8;
 }
+.location-main-info-web{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.location-container{
+    display:flex;
+    flex-direction: column;  
+}
+.location-address{
+    margin-bottom: 10px;
+}
+.location-email{
+    margin-bottom: 10px;
+}
+.link-contact{
+  text-decoration: none;
+  color: black;
+}
+.location-no{
+    margin-bottom: 10px;
+}
