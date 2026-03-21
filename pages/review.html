@@ -46,25 +46,31 @@
 
         </div>
     </section>
-    <section class="add-review">
-        <h2>Add Your Review</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <textarea placeholder="Write your review..." required></textarea>
-            <select required>
-                <option value="">Select Rating</option>
-                <option>⭐️⭐️⭐️⭐️⭐️</option>
-                <option>⭐️⭐️⭐️⭐️</option>
-                <option>⭐️⭐️⭐️</option>
-                <option>⭐️⭐️</option>
-                <option>⭐️</option>
-            </select>
-            <button type="submit">Submit Review</button>
-        </form>
-    </section>
-    <button class="back-btn" onclick="history.back()">Go Back</button>
-    <footer>
-        <p>© 2026 Annapurna Hub | Fresh & Homemade Foods</p>
-    </footer>
+    <div class="review-container">
+    <h2>Customer Review</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Rate Us</label>
+        <select>
+            <option>Excellent ⭐⭐⭐⭐⭐</option>
+            <option>Good ⭐⭐⭐⭐</option>
+            <option>Average ⭐⭐⭐</option>
+            <option>Poor ⭐⭐</option>
+            <option>Very Bad ⭐</option>
+        </select>
+
+        <label>Your Review</label>
+        <textarea placeholder="Write your review here..."></textarea>
+
+        <button type="submit">Submit Review</button>
+    </form>
+</div>
+        <button class="back-btn" onclick="history.back()">Go Back</button>
 </body>
 </html>
