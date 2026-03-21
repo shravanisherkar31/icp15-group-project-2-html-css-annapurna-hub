@@ -6,7 +6,7 @@ body {
 }
 /* Header */
 header {
-    background-color: #B77466;
+    background-color: #493628;
     color: white;
     text-align: center;
     padding: 20px;
@@ -58,7 +58,7 @@ header {
 }
 
 .add-review button {
-    background-color: #B77466;
+    background-color: #493628;
     color: white;
     padding: 10px;
     border: none;
@@ -69,10 +69,23 @@ header {
 .add-review button:hover {
     background-color: #E2B59A;
 }
+.back-btn {
+    background-color: #493628;
+    color:white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.back-btn:hover{
+    background-color: #B77466;
+}
 
 /* Footer */
 footer {
-    background-color:;
+    background-color:#493628;
     color: white;
     text-align: center;
     padding: 10px;
