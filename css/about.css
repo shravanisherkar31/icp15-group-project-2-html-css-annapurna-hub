@@ -397,7 +397,6 @@
 .information {
     border-style: groove;
     border: none;
-
     padding: 20px;
     height: 200px;
     font-size: 20px;
@@ -408,6 +407,11 @@
 
     transition: transform 0.2s ease;
 
+}
+
+.sub-info{
+    text-decoration: none;
+    color: rgb(79, 6, 6);
 }
 
 .team-wrapper {
