@@ -16,7 +16,7 @@
 
 /* LOGO */
 .main-logo-icon{
-    height: 170px;
+    height: 190px;
 }
 
 /* CENTER MENU */
@@ -74,51 +74,72 @@
     background-color: darkorange;
 }
 
-/* Wrapper */
-.search-wrapper{
+/* ── SEARCH WRAPPER ── */
+.search-wrapper {
     position: relative;
     cursor: pointer;
 }
 
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
 /* Dropdown box */
-.search-dropdown{
+.search-dropdown {
     position: absolute;
-    top: 35px;
+    top: 42px;
     right: 0;
 
-    width: 250px;
-    background: white;
+    width: 240px;
+    background: rgba(20, 10, 3, 0.97);
+    border: 1px solid rgba(224, 123, 46, 0.25);
     border-radius: 10px;
 
     display: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    backdrop-filter: blur(10px);
 }
 
-/* Show dropdown on hover */
-.search-wrapper:hover .search-dropdown{
+.search-wrapper:hover .search-dropdown {
     display: block;
+    animation: dropIn 0.2s ease;
+}
+
+@keyframes dropIn {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
 }
 
 /* Input */
-.search-input{
+.search-input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 14px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(224, 123, 46, 0.2);
+    background: transparent;
+    color: #f5ede0;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
-/* OPTIONS (IMPORTANT PART) */
-.search-options a{
-    display: block;              /* 👉 ya mule vertical yetil */
-    padding: 10px 15px;
+.search-input::placeholder {
+    color: #a07850;
+}
+
+/* OPTIONS */
+.search-options a {
+    display: block;
+    padding: 9px 14px;
     text-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: #c9b090;
+    font-size: 14px;
+    transition: background 0.2s, color 0.2s;
 }
 
-/* Hover effect */
-.search-options a:hover{
-    background-color: #f0f0f0;
+.search-options a:hover {
+    background: rgba(224, 123, 46, 0.15);
+    color: #f0a050;
 }
