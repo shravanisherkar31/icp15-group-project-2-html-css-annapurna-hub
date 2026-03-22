@@ -3,7 +3,7 @@ body{
     padding: 0;
     overflow-x: hidden;
     font-family: "Titillium Web", sans-serif; 
-    background-color: #E4E0E1;
+    background-color: #ffffff;
 }
 
 /* Hero Section */
@@ -41,8 +41,8 @@ body{
 
 .description{
     color: whitesmoke;
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* Statistics */
