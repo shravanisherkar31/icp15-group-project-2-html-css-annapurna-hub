@@ -33,15 +33,26 @@ header {
 }
 /* Review Cards */
 .review-card {
-    background: white;
-    padding: 10px;
+    text-align: center;
+    background:#fff;
+    overflow: hidden;
+    padding: 0;
     width: 280px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);;
     transition: transform 0.3s;
 }
+/* Card image */
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+/* Hover */
 .review-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
 }
 .review-card h3 {
     color: #B77466;
