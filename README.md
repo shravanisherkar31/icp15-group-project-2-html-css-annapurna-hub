@@ -64,7 +64,9 @@ project/
 ---
 
 ## 👩‍💻 Contributors
-
+<a href="https://github.com/shravanisherkar31/icp15-group-project-2-html-css-annapurna-hub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shravanisherkar31/icp15-group-project-2-html-css-annapurna-hub" />
+</a>
 <table>
   <tr>
     <td align="center">
