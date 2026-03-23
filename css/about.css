@@ -71,7 +71,8 @@
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 100px 6vw 60px; /* top padding navbar sathi */
+  padding: 100px 6vw 60px;
+  padding-top: 120px; 
   background-color: #d6c0b3;
 }
 
@@ -153,6 +154,15 @@
   background: #a93226;
 }
 
+.tagline3{
+   display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin: 30px 20px;
+color: #f7d179;
+
+}
 .point-icon {
   width: 28px;
   height: 28px;
@@ -209,7 +219,6 @@
   }
 }
 
-/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .sample-inte {
     height: 250px;
@@ -242,7 +251,6 @@
     }
 }
 
-/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
     .sample-inte{
         height: 250px;

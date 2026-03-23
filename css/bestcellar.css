@@ -270,6 +270,7 @@
       .bestsellers-hero {
           background: linear-gradient(135deg, #2c1a0e 0%, #5c2d0e 50%, #922b21 100%);
           padding: 64px 48px 56px;
+          padding-top: 120px;
           text-align: center;
           position: relative;
           overflow: hidden;
@@ -554,6 +555,7 @@ button:hover {
     background: #4c531c;
 }
 
+
 /* Footer */
 .footer{
     background:rgb(47, 1, 1);
@@ -758,3 +760,4 @@ button:hover {
         padding: 10px;
     }
 }
+
