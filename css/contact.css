@@ -772,6 +772,9 @@ body {
     padding-left: 8px;
     font-size: 16px;
 }
+.btn-mn{
+    background-color: #fff;
+}
 .message-btn{
     display: block;
     margin: 10px auto;
@@ -807,12 +810,6 @@ body {
     margin-bottom: 20px;
     text-align: center;
  }
-/* .btn-link-hero-img{
-    background-color:rgba(113, 18, 18,0.9);
-    width:100%;
-    border-radius: 50px;
-    margin-top: 2px;
-} */
 .facility-section{
     display: flex;
     justify-content: center;
