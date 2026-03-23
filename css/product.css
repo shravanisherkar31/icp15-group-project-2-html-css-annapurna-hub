@@ -298,7 +298,6 @@
     font-size: 35px;
     font-weight: 600;
     text-align: center;
-
 }
 
 .bestsellers-hero {
@@ -375,7 +374,6 @@ display: flex;
     margin-bottom: 20px;
     scroll-behavior: smooth;
     margin-top: 10px;
-
 }
 
 .scroll-nav-product::-webkit-scrollbar {
@@ -392,7 +390,7 @@ display: flex;
     margin-bottom: 20px;
     scroll-behavior: smooth;
     margin-top: 70px;
-
+      font-family: "Titillium Web", sans-serif; 
 }
 
 .scroll-nav::-webkit-scrollbar {
@@ -512,12 +510,14 @@ display: flex;
 .card h3 {
     margin: 10px 0 5px;
     font-size: 16px;
+    font-family: "Titillium Web", sans-serif; 
 }
 
 .price {
     font-weight: bold;
     font-size: 16px;
     margin: 5px 0;
+    font-family: "Titillium Web", sans-serif; 
 }
 
 .button {
