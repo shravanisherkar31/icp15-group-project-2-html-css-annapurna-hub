@@ -222,7 +222,6 @@
         max-height: 400px;
     }
 
-    /* X shape when open */
     #nav-toggle:checked + .main-container .hamburger span:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
@@ -269,13 +268,14 @@
       /* ── HERO BANNER ── */
       .bestsellers-hero {
           background: linear-gradient(135deg, #2c1a0e 0%, #5c2d0e 50%, #922b21 100%);
-          padding: 64px 48px 56px;
-          padding-top: 120px;
+          padding: 20px;
+          padding-top: 40px;
+          padding-bottom: 15px;
           text-align: center;
           position: relative;
-          overflow: hidden;
-            
+          overflow: hidden;   
           margin-top: 30px;
+          margin-bottom: 5px;
       }
 
       .bestsellers-hero::before {
@@ -297,18 +297,20 @@
           text-transform: uppercase;
           padding: 6px 18px;
           border-radius: 20px;
-          margin-bottom: 18px;
+          margin-top: 45px;
+          margin-bottom: 5px;
           position: relative;
       }
 
       .bestsellers-hero h1 {
-          font-family: 'Playfair Display', serif;
+           font-family: "Titillium Web", sans-serif; 
           font-size: 52px;
           color: #fff;
           font-weight: 700;
           line-height: 1.15;
           position: relative;
           margin-bottom: 14px;
+          margin-top: 5px;
       }
 
       .bestsellers-hero h1 span {
@@ -341,7 +343,7 @@
       }
  
       .section-label span {
-        font-family: 'Playfair Display', serif;
+        font-family: "Titillium Web", sans-serif; 
         font-size: 18px;
         color: var(--gold);
         white-space: nowrap;
@@ -364,7 +366,7 @@
           background: #fff;
           color: var(--text);
           border-radius: 24px;
-          font-family: 'Titillium Web', sans-serif;
+          font-family: "Titillium Web", sans-serif; 
           font-size: 14px;
           font-weight: 600;
           cursor: pointer;
@@ -479,8 +481,8 @@
           padding: 18px 20px 20px;
       }
 
-      .card-body h3 {
-          font-family: 'Playfair Display', serif;
+      .card-body h3 {  
+          font-family: "Titillium Web", sans-serif; 
           font-size: 20px;
           color: var(--dark);
           margin-bottom: 5px;
