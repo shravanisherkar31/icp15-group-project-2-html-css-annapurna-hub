@@ -1,106 +1,14 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: "Poppins", sans-serif;
-}
-        body{
-            font-family: Arial, sans-serif; 
-            background-color: rgb(255, 252, 241); 
-        }
-.navbar-main-container {
-    background-color: rgb(73, 54, 40);
-    color: rgb(244, 241, 241);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-.main-container {
-    height: 600px;
-    width: 1527px;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.project-name {
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    font-family:"Poppins" ,sans-serif;
-}
-
-.main-logo {
-    border-radius: 30px;
-}
-
-.nav-links-container {
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
-    color: #f9f9f9;
-}
-
-.nav-text-container {
-    color: #f9f5f5;
-     text-decoration: none; 
-     
-}
-
-.auth-links-containar {
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
-}
-
-@media(max-width :767px) {
-
-    .project-name {
-        font-size: 30px;
-
-    }
-
-
-    .main-container {
-        align-items: center;
-        padding: 15px 40px;
-        flex-direction: column;
-    }
-
-    .navbar-main-container {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-
-    .auth-links-containar {
-        flex-direction: column;
-        text-align: center;
-        padding: 6px 0;
-        width: 100%;
-    }
-
-    .nav-text-container {
-        display: block;
-        margin-top: 12px;
-        font-size: 14px;
-        margin: 10px 0;
-    }
-}
+body{
+    font-family: "Titillium Web", sans-serif; 
+    background-color: rgb(255, 252, 241); 
+  }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .gallery-container-text {
@@ -155,7 +63,7 @@
 }
 
 .title-style {
-    font-family: serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 30px;
 }
 /* HERO SECTION */
@@ -163,7 +71,8 @@
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 100px 6vw 60px; /* top padding navbar sathi */
+  padding: 100px 6vw 60px;
+  padding-top:5px; 
   background-color: #d6c0b3;
 }
 
@@ -184,6 +93,7 @@
 .hero-right {
   flex: 1;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 16px;
 }
@@ -242,9 +152,19 @@
 }
 
 .hero-btn:hover {
-  background: #a93226;
+    background: #4c531c;
 }
 
+.tagline3{
+   display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px 20px;
+ font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+ font-weight: 600;
+ color: #3b2a1a;
+
+}
 .point-icon {
   width: 28px;
   height: 28px;
@@ -269,7 +189,7 @@
     font-size: 30px;
     color: rgb(36, 10, 106);
     box-shadow: 10px;
-    font-family: sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 40px;
     width: 100%;
     text-align: center;
@@ -301,7 +221,6 @@
   }
 }
 
-/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .sample-inte {
     height: 250px;
@@ -334,7 +253,6 @@
     }
 }
 
-/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
     .sample-inte{
         height: 250px;
@@ -421,8 +339,9 @@
 }
 
 .team-wrapper h2 {
-    font-size: 28px;
-    color: #1143a6;
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  font-weight: 600;
+  color: #3b2a1a;
     margin-bottom: 30px;
 }
 
@@ -580,104 +499,63 @@
   display: block;
 }
 
-@media (max-width: 768px) {
-  .media-container {
-    grid-template-columns: 1fr;
-  }
+/* HERO SECTION */
+.bestsellers-hero {
+  background: linear-gradient(135deg, #2c1a0e 0%, #5c2d0e 50%, #922b21 100%);
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;   
+  margin-top: 35px;
 }
 
-
-.footer {
-    background-color: rgb(73, 54, 40);
-    color: #fff;
-    padding: 40px 20px;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    align-items: center;
-
+/* glow effect */
+.bestsellers-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(212, 160, 23, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 30%, rgba(192, 57, 43, 0.2) 0%, transparent 50%);
 }
 
-.footer-top {
-    margin-bottom: 10px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+/* badge */
+.hero-badge {
+  display: inline-block;
+  background: #d4a017;
+  color: #2c1a0e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 5px;
+  position: relative;
 }
 
-.footer-logo {
-    width: 80px;
-
-    margin-bottom: 15px;
+/* heading */
+.bestsellers-hero h1 {
+  font-family: "Titillium Web", sans-serif; 
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin: 20px 0;
-    font-size: 20px;
-    flex-wrap: wrap;
-
+.bestsellers-hero h1 span {
+  color: #d4a017;
 }
 
-.social-icons a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-
-}
-
-.social-icons img {
-    width: 25px;
-    height: 30px;
-    margin-right: 8px;
-}
-
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.col h4 {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    display: flex;
-    
-}
-
-.col a {
-    display: flex;
-    margin: 6px 0;
-    color: #eee;
-    text-decoration: none;
-    font-size: 12px;
-    transition: .3s;
-}
-
-.col a:hover {
-    color: #ffcc00;
-}
-
-.footer-bottom {
-    text-align: center;
-    border-top: 1px solid #eee;
-    padding-top: 15px;
-    margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    .footer-links {
-        text-align: center;
-
-    }
+/* description */
+.bestsellers-hero p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
 }
